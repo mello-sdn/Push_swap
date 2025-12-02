@@ -8,20 +8,9 @@
 
 **push_swap** est un projet de tri algorithmique où l'objectif est de trier des données dans une pile en utilisant un ensemble limité d'instructions, tout en visant le plus petit nombre d'actions possible. Ce projet nécessite de travailler avec différents algorithmes et de choisir le plus approprié pour un tri de données optimisé
 **Objectifs principaux :**
-- Créer un programme capable de trier une pile d'entiers avec un nombre minimum d'opérations (imposé par le sujet)
-- Maîtriser les concepts de structures de données (piles)
+- Créer un programme capable de trier les nombres dans la pile **a** en ordre croissant grace à la pile **b** , le tout avec le minimum d'opérations possible (imposé par le sujet)
+- Maîtriser les concepts de structures de données (piles) / LIFO (Last In, First Out)
 - Comprendre et implémenter des algorithmes de tri efficaces
-
----
-
-## Le Défi
-Vous disposez de :
-- 2 piles nommées **a** et **b**
-- Un ensemble d'entiers aléatoires (positifs et/ou négatifs) dans la pile **a**
-- La pile **b** est vide au départ
-
-**Objectif :** Trier les nombres dans la pile **a** en ordre croissant avec le minimum d'opérations possible.
-
 ---
 
 ## 🔧 Installation
@@ -74,14 +63,9 @@ Resultat attendu : OK
 ## 📚 Points clés à retenir & Ressource
 
 ### Concepts Algorithmiques
-- **Complexité** : Comprendre et optimiser la complexité temporelle de votre algorithme
+- **Complexité** : Comprendre et optimiser la complexité temporelle de votre algorithme (voir notation big O)
 - **Choix d'algorithme** : Différentes approches selon le nombre d'éléments (tri à bulles, tri rapide, radix sort, etc.) j'ai personnellement choisi le Turkish Algo 
 - **Optimisation** : Minimiser le nombre d'opérations nécessaires
-
-### Structures de Données
-- Implémenter et manipuler des piles (stacks)
-- Gérer efficacement les opérations sur les piles
-- Comprendre LIFO (Last In, First Out)
 
 ### Gestion d'Erreurs
 - Arguments non entiers
@@ -101,7 +85,7 @@ Resultat attendu : OK
 - Testez chaque opération individuellement
 - Développez d'abord un algorithme simple qui fonctionne
 - Optimisez progressivement
-- Utilisez des visualiseurs pour débugger
+- Bien prendre en compte les cas d'erreurs (int min max, doublons, charactères invalides etc.. ainsi que les leaks)
 
 ---
 
