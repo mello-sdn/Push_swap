@@ -89,7 +89,7 @@ Resultat attendu : OK
 
 ---
 
-## ✨ Note Finale
+## ✔️ Note Finale
 <br>
   <img width="199" height="170" alt="125" src="https://github.com/user-attachments/assets/c127bd3f-6bda-4633-80a0-b4efb9a120d6" />
 
